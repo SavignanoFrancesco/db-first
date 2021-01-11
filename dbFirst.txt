@@ -1,31 +1,31 @@
-id									INT, PRIMARY KEY (=> AUTO_INCREMENT, NOT NULL, UNIQUE, INDEX)
-marca								VARCHAR(50), NOT NULL, INDEX
-modello								VARCHAR(100), NOT NULL
-immatricolazione   					DATE, NOT NULL
-km									MEDIUMINT, NOT NULL
-foto-davanti						VARCHAR(50), NOT NULL
-foto-dietro							VARCHAR(50), NOT NULL
-carrozzeria							VARCHAR(20), NOT NULL
-colore								VARCHAR(20), NOT NULL
-interni								VARCHAR(20), NOT NULL
-optionals							VARCHAR(50), NULL
-numero_posti						TINYINT, NOT NULL
-numero_porte						TINYINT, NOT NULL
-alimentazione_motore   				VARCHAR(20), NOT NULL
-trazione_motore    					VARCHAR(20), NOT NULL
-cambio_motore    					VARCHAR(20), NOT NULL
-cilindrata             				SMALLINT, NOT NULL
-cavalli								SMALLINT, NOT NULL
-potenza								SMALLINT, NOT NULL
-classe								VARCHAR(20), NOT NULL
-parcheggio_deposito  				SMALLINT, NOT NULL
-disponibilità						TINYINT, NOT NULL, DEFAULT(1)
-rivenditore							VARCHAR(50), NULL
-acquirente							VARCHAR(50), NULL
-in_offerta							TINYINT, NULL, DEFAULT(0)
-prezzo_acquisto						DECIMAL(8, 2), NOT NULL
-condizione							VARCHAR(50), NULL
-descrizione							VARCHAR(255), NULL
+id						INT, PRIMARY KEY (=> AUTO_INCREMENT, NOT NULL, UNIQUE, INDEX)
+marca					VARCHAR(50), NOT NULL, INDEX
+modello					VARCHAR(100), NOT NULL
+immatricolazione		DATE, NOT NULL
+km 						MEDIUMINT, NOT NULL
+foto_davanti			VARCHAR(50), NOT NULL
+foto_dietro				VARCHAR(50), NOT NULL
+carrozzeria				VARCHAR(20), NOT NULL
+colore					VARCHAR(20), NOT NULL
+interni					VARCHAR(20), NOT NULL
+optionals				VARCHAR(50), NULL
+numero_posti			TINYINT, NOT NULL
+numero_porte			TINYINT, NOT NULL
+alimentazione_motore   	VARCHAR(20), NOT NULL
+trazione_motore    		VARCHAR(20), NOT NULL
+cambio_motore    		VARCHAR(20), NOT NULL
+cilindrata             	SMALLINT, NOT NULL
+cavalli					SMALLINT, NOT NULL
+potenza					SMALLINT, NOT NULL
+classe					VARCHAR(20), NOT NULL
+parcheggio_deposito  	SMALLINT, NOT NULL
+disponibilità			TINYINT, NOT NULL, DEFAULT(1)
+rivenditore				VARCHAR(50), NULL
+acquirente				VARCHAR(50), NULL
+in_offerta				TINYINT, NULL, DEFAULT(0)
+prezzo_acquisto			DECIMAL(8, 2), NOT NULL
+condizione				VARCHAR(50), NULL
+descrizione				VARCHAR(255), NULL
 
 
 
